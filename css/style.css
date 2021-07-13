@@ -1,0 +1,305 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url('../back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-family: 'Faster One', cursive;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p{
+  color:azure;
+}
+
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+
+
+/*
+ * Section Styles
+*/
+
+section.hero img{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.hero{
+    line-height: 0;
+
+}
+
+
+section.main{
+  background: #0A192F;
+  line-height: 0;
+  text-align: center;
+
+}
+
+section.main h1{
+  text-align: center;
+}
+
+section.main p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 15px 20px 0 20px;
+}
+
+
+
+section.tools {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #0A192F;
+  border: 30px solid #0A192F;
+  border-radius: 0px;
+}
+
+.texts {
+  border-radius: calc(30px - 10px);
+  //background: #0A192F;
+  background: #D3D1DB;
+  margin: 0;
+}
+
+
+section.tools h2{
+  padding: 15px 0 0 0 ;
+  font-size: 2.5rem;
+  color: black;
+font-family: 'Tangerine', cursive;
+}
+
+.texts ul{
+line-height: 2rem;
+padding: 0 0 25px 0;
+}
+
+
+/*
+ * Resume Styles
+*/
+
+.button{
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.resume{
+  background-color: #D3D1DB;
+  color: black;
+  border: 2px solid white;
+  border-radius: 30px;
+  align: center;
+}
+
+.resume:hover{
+  background-color: #0A192F;
+  color: #D3D1DB;
+}
+
+.resume a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.resume a:hover{
+  color: white;
+}
+
+
+/*
+ * About Styles
+*/
+
+
+.about {
+  color: white;
+  background: #0A192F
+}
+
+.about img{
+  width: 200px;
+  height: 200px;
+  float: right;
+
+}
+
+.about p{
+ padding: 0 20px 0px 20px;
+
+}
+
+
+section.about h2{
+  padding: 15px 0 0 0 ;
+  font-size: 2.5rem;
+font-family: 'Tangerine', cursive;
+}
+
+
+
+/*
+ * Contact Styles
+*/
+
+.contact{
+  color: white;
+  background: #0A192F;
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+section.contact h2{
+  font-size: 2.5rem;
+font-family: 'Tangerine', cursive;
+}
+
+
+button[type=submit] {
+  background-color: #D3D1DB;
+  color: #0A192F;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=text], [type=email], textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+
+/*
+ * Icons Styles
+*/
+
+.internet{
+ background: #0A192F;
+
+}
+section.internet{
+  color: white;
+  text-align: center;
+}
+
+.icons{
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+section.internet h2{
+  padding: 25px 0 0 0 ;
+  font-size: 2.5rem;
+font-family: 'Tangerine', cursive;
+}
+
+
+
+
+
+
+
+/*
+ * footer Styles
+*/
+
+.footer{
+  color: #0A192F;
+  background: #0A192F;
+  text-align: center;
+  border: 10px solid #0A192F;
+  
+}
+
+footer{
+    border-radius: calc(30px - 10px);
+  //background: #0A192F;
+  background: #D3D1DB;
+  padding: 10px;
+  line-height: 20px;
+}
+
+.footer a{
+  color: #0A192F;
+  text-decoration: none;
+}
